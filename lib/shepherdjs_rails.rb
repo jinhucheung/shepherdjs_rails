@@ -1,3 +1,4 @@
+require "shepherdjs_rails/engine"
+
 module ShepherdjsRails
-  class Engine < ::Rails::Engine; end
 end
