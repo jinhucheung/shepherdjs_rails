@@ -1,3 +1,3 @@
 module ShepherdjsRails
-  VERSION = "1.8.1"
+  VERSION = "2.0.0-beta.35"
 end

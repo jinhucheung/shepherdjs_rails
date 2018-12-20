@@ -1,6 +1,6 @@
 # shepherdjs_rails
 
-This gem wraps the [Shepherd](https://github.com/shipshapecode/shepherd) JavaScript library so that it can be included easily in the Rails asset pipeline.
+This gem wraps the [Shepherd](https://github.com/shipshapecode/shepherd/tree/v2.0.0-beta.35) JavaScript library so that it can be included easily in the Rails asset pipeline.
 
 ## Installation
 
@@ -38,12 +38,16 @@ This gem also includes the CSS for shepherd-theme-default, shepherd-theme-square
 *= require shepherd-theme-default
 *= require shepherd-theme-square
 *= require shepherd-theme-dark
-*= require shepherd-theme-arrows
 ```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jinhucheung/shepherdjs_rails.
+If you need a newer version of Shepherd:
+
+1. Fork this repo.
+2. Update the vendored files with the newest release of [Shepherd](https://github.com/shipshapecode/shepherd)
+3. Update `lib/shepherdjs_rails/version.rb` to match the version of Shepherd that you updated to.
+4. Push to your repo and create a pull request.
 
 ## License
 
