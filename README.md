@@ -1,6 +1,6 @@
 # shepherdjs_rails
 
-This gem wraps the [Shepherd](https://github.com/shipshapecode/shepherd/tree/v2.0.0-beta.35) JavaScript library so that it can be included easily in the Rails asset pipeline.
+This gem wraps the [Shepherd](https://github.com/shipshapecode/shepherd/tree/v2.0.2) JavaScript library so that it can be included easily in the Rails asset pipeline.
 
 ## Installation
 
