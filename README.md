@@ -23,7 +23,7 @@ Or install it yourself as:
 add shepherdjs_rails to your application.js manifest
 
 ```
-//= require shepherd
+//= require shepherd.min
 ```
 
 and include the stylesheets in your application.css manifest
