@@ -26,18 +26,13 @@ add shepherdjs_rails to your application.js manifest
 //= require shepherd.min
 ```
 
-and include the stylesheets in your application.css manifest
-
-```
-*= require shepherd
-```
-
-This gem also includes the CSS for shepherd-theme-default, shepherd-theme-square, and shepherd-theme-dark... You can include whichever files you need in your application.css with
+and include the CSS of shepherd theme you need in your application.css with
 
 ```
 *= require shepherd-theme-default
 *= require shepherd-theme-square
 *= require shepherd-theme-dark
+*= require shepherd-theme-square-dark
 ```
 
 ## Contributing
