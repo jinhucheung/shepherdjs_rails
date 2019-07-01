@@ -12,7 +12,7 @@ gem 'shepherdjs_rails'
 
 And then execute:
 
-    $ bundle
+    $ bundle install
 
 Or install it yourself as:
 
